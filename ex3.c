@@ -1,8 +1,7 @@
 /* ************************************************************************ *
- *    PROGRAM_NAME, VERSION                                                 *
- *    BRIEF_DESCRIPTION                                                     *
+ *    Calculadora Polonesa                                                  *
  *                                                                          *
- *    Copyright (C) 2017 by Nome Completo                                   *
+ *    Copyright (C) 2018 by Douglas Azevedo Pereira Dantas                  *
  *                                                                          *
  *    This program is free software; you can redistribute it and/or modify  *
  *    it under the terms of the GNU General Public License as published by  *
@@ -20,12 +19,13 @@
  *    59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  *                                                                          *
  *    To contact the author, please write to:                               *
- *    Nome Completo <email@dominio.dd>                                      *
- *    Webpage: http://www.example.com                                       *
- *    Phone: +cc (dd) xxxx-xxxx                                             *
+ *    Douglas Azevedo Pereira Dantas <douglasazevedo839@gmail.com>          *
+ *    Webpage: https://github.com/DodoAz                                    *
+ *    Phone: +55 (81) 99158-2473                                            *
  * ************************************************************************ *
  * 
  */
+
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -35,7 +35,7 @@
 
 typedef struct st_pilha 
 {
-    int c;                 //o item armazenadostruct 
+    int c;                        //o item armazenado 
     struct st_pilha *prox;        //ponteiro para próximo
 }pilha;
 
